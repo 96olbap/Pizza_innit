@@ -150,6 +150,27 @@ body {
     transition: 0.5s all ease-in-out;
 }
 
+card-top {
+    display: flex;
+    margin: 5px 0;
+    justify-content: space-between;
+}
+
+#rating {
+    padding: 7px;
+    color: goldenrod;
+    background: black;
+    font-size: 14px;
+    border-radius: 14px;
+}
+
+.fa-heart-o {
+    padding: 6px;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
 #item-card img {
     width: 120px;
     height: 120px;
