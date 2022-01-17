@@ -307,8 +307,21 @@ card-top {
 #cart-sec table tbody img {
     width: 170px;
     height: 160px;
+    border-radius: 60%;
+}
+
+.cart-list {
+    display: none;
 }
 
 #costSumation {
     display: none;
+}
+
+#checkout {
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 5px;
+    background: white;
+    padding: 11px 19px;
 }
