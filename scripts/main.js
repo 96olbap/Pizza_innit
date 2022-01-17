@@ -34,3 +34,36 @@ const pizzaType = [{
             img: 'images/small.jpg',
             quantity: 1
         },
+        {
+            id: 5,
+            toppings: 'Bacon',
+            size: 'medium',
+            rating: 5.9,
+            price: 1200,
+            img: 'images/medium.jpg',
+            quantity: 1
+        } {
+            id: 6,
+            toppings: 'Pepperoni',
+            size: 'medium',
+            rating: 5.7,
+            price: 1370,
+            img: 'images/medium.jpg',
+            quantity: 1
+        } {
+            id: 7,
+            toppings: 'Onions',
+            size: 'medium',
+            rating: 5.5,
+            price: 1245,
+            img: 'images/medium.jpg',
+            quantity: 1
+        } {
+            id: 8,
+            toppings: 'Green peppers',
+            size: 'medium',
+            rating: 5.9,
+            price: 1400,
+            img: 'images/medium.jpg',
+            quantity: 1
+        },
