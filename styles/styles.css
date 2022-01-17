@@ -103,7 +103,8 @@ body {
 
 .available-pizzas {}
 
-.bar i .user i {
+.bar i,
+.user i {
     font-size: 18px;
     margin: 0 16px;
     border: 1px splod crimson;
@@ -115,4 +116,50 @@ body {
 .bar i:active {
     color: white;
     background: crimson;
+}
+
+#small,
+#large,
+#Xlarge {
+    margin-top: 40px;
+}
+
+#large #item-card {
+    background: rgb(218, 253, 18);
+}
+
+#Xlarge #item-card {
+    background: rgb(221, 243, 243);
+}
+
+#sec-name,
+.menu-item {
+    margin: 10px;
+    font-size: 35px;
+    color: coral
+}
+
+#item-card {
+    width: 180px;
+    height: 220px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background: rgb(253, 221, 226);
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+
+#item-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+    transition: 0.5s all ease-in-out;
+}
+
+#item-card:hover img {
+    transform: scale(1.3);
 }
