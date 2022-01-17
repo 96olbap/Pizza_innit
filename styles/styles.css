@@ -67,7 +67,7 @@ body {
 
 #header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-a;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 10px;
@@ -75,4 +75,44 @@ body {
     top: 0;
     background: whitesmoke;
     z-index: 1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#header .address {
+    font-size: 20px;
+    ;
+}
+
+.your-address {
+    border: 1px solid indianred;
+    color: indianred;
+    padding: 5px 10px;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.add-box i {
+    font-size: 20px;
+}
+
+.available-pizzas {}
+
+.bar i .user i {
+    font-size: 18px;
+    margin: 0 16px;
+    border: 1px splod crimson;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.bar i:active {
+    color: white;
+    background: crimson;
 }
