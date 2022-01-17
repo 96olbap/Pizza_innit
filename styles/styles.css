@@ -267,11 +267,11 @@ card-top {
     margin-right: 50px;
     padding: 20px 30px;
     padding-bottom: 30px;
-    position: relative
+    position: relative;
 }
 
 #tittle-of-cart {
-    font-size: 35px;
+    font-size: 40px;
     margin: 0;
     color: indianred
 }
@@ -337,12 +337,27 @@ card-top {
     color: indianred;
 }
 
+#delivery {
+    font-size: 20px;
+    color: rgb(0, 81, 128)
+}
+
 .cart-btn {
     outline: none;
     border: none;
+    text-transform: uppercase;
     background: red;
     color: white;
     padding: 10px 25px;
     border-radius: 18px;
     font-size: 17px;
+    bottom: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.cart-btn:active {
+    color: red;
+    background: none;
+    border: 1px solid red;
 }
