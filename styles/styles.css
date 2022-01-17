@@ -52,6 +52,7 @@ body {
     margin: 12px 0;
     color: red;
     font-weight: 250;
+    border-radius: 20px;
 }
 
 .menu-item a:hover {
@@ -83,11 +84,11 @@ body {
 
 #header .address {
     font-size: 20px;
-    ;
 }
 
 .your-address {
     border: 1px solid indianred;
+    border-radius: 5px;
     color: indianred;
     padding: 5px 10px;
     width: 150px;
@@ -107,7 +108,7 @@ body {
 .user i {
     font-size: 18px;
     margin: 0 16px;
-    border: 1px splod crimson;
+    border: 1px solid crimson;
     padding: 8px 16px;
     border-radius: 20px;
     cursor: pointer;
