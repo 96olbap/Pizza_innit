@@ -23,7 +23,7 @@ body {
 /*menu-design */
 
 #menu {
-    background: whitesmoke;
+    background: white;
 }
 
 #food-cont {
@@ -32,4 +32,28 @@ body {
 
 #cart {
     background: lavender;
+}
+
+.logo {
+    padding: 0 30px;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    margin-top: -20px;
+}
+
+.menu-item a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 8px 30px;
+    margin: 12px 0;
+    color: red;
+    font-weight: 250;
+}
+
+.menu-item a:hover {
+    background: #ffe875;
 }
