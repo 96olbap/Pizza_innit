@@ -1,6 +1,6 @@
 const pizzaType = [{
         id: 1,
-        toppings: 'Bacon',
+        toppings: 'Toppings: Bacon',
         size: 'small',
         rating: 5.3,
         price: 810,
@@ -9,7 +9,7 @@ const pizzaType = [{
     },
     {
         id: 2,
-        toppings: 'Pepperoni',
+        toppings: 'Toppings: Pepperoni',
         size: 'small',
         rating: 4.7,
         price: 880,
@@ -18,16 +18,7 @@ const pizzaType = [{
     },
     {
         id: 3,
-        toppings: 'Onions',
-        size: 'small',
-        rating: 3.9,
-        price: 795,
-        img: 'images/small.jpg',
-        quantity: 1
-    },
-    {
-        id: 4,
-        toppings: 'Green peppers',
+        toppings: 'Toppings: Onions',
         size: 'small',
         rating: 4.9,
         price: 895,
@@ -35,8 +26,8 @@ const pizzaType = [{
         quantity: 1
     },
     {
-        id: 5,
-        toppings: 'Bacon',
+        id: 4,
+        toppings: 'Toppings: Bacon',
         size: 'medium',
         rating: 5.9,
         price: 1200,
@@ -44,8 +35,8 @@ const pizzaType = [{
         quantity: 1
     },
     {
-        id: 6,
-        toppings: 'Pepperoni',
+        id: 5,
+        toppings: 'Toppings: Pepperoni',
         size: 'medium',
         rating: 5.7,
         price: 1370,
@@ -53,17 +44,8 @@ const pizzaType = [{
         quantity: 1
     },
     {
-        id: 7,
-        toppings: 'Onions',
-        size: 'medium',
-        rating: 5.5,
-        price: 1245,
-        img: 'images/medium.jpg',
-        quantity: 1
-    },
-    {
-        id: 8,
-        toppings: 'Green peppers',
+        id: 6,
+        toppings: 'Toppings: Onions',
         size: 'medium',
         rating: 5.9,
         price: 1400,
@@ -71,8 +53,8 @@ const pizzaType = [{
         quantity: 1
     },
     {
-        id: 9,
-        toppings: 'Bacon',
+        id: 7,
+        toppings: 'Toppings: Bacon',
         size: 'large',
         rating: 5.9,
         price: 1470,
@@ -80,8 +62,8 @@ const pizzaType = [{
         quantity: 1
     },
     {
-        id: 10,
-        toppings: 'Pepperoni',
+        id: 8,
+        toppings: 'Toppings: Pepperoni',
         size: 'large',
         rating: 5.7,
         price: 1550,
@@ -89,17 +71,8 @@ const pizzaType = [{
         quantity: 1
     },
     {
-        id: 11,
-        toppings: 'Onions',
-        size: 'mlarge',
-        rating: 5.5,
-        price: 1540,
-        img: 'images/large.jpg',
-        quantity: 1
-    },
-    {
-        id: 12,
-        toppings: 'Green peppers',
+        id: 9,
+        toppings: 'Toppings: Onions',
         size: 'large',
         rating: 5.9,
         price: 1660,
