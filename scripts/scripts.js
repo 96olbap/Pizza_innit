@@ -221,3 +221,7 @@ function cartItems() {
         item.addEventListener('click', decrementItem);
     });
 }
+$('#checkout').click(function() {
+    let toppings = $('.toppings option:selected').val;
+
+})

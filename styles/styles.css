@@ -379,3 +379,7 @@
         font-size: inherit;
         line-height: inherit;
     }
+    
+    #checkout p {
+        display: none;
+    }
